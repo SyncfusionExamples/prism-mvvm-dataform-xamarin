@@ -2,6 +2,7 @@
 The SfDataForm allows you to work with Prism framework. To achieve this, follow these steps:
 
 **Step 1:** Install the ![](https://www.nuget.org/packages/Prism.Unity.Forms/)Prism Unity Forms NuGet package in your shared code project.
+
 **Step 2:** Inherit the App.xaml and App.xaml.cs files from PrismApplication instead of Application. 
 
 **XAML**
@@ -85,7 +86,7 @@ public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsAppli
     }
 }
 ```
-**UWP*
+**UWP**
 ``` C#
 public sealed partial class MainPage
 {
